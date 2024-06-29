@@ -3,7 +3,7 @@ import express from 'express'
 const app = express()
 app.set('view engine', 'ejs')
 
-app.set('views','src/web/')
+app.set('views',__dirname + '/web/')
 
 
 //Quiz game
@@ -27,4 +27,4 @@ app.listen(3000, () => {
     console.log('Listening at port 3000')
 })
 
-module.exports = app;
+module.exports = app;   
