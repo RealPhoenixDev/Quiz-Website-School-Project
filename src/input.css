@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --text-50: #f1ecf9;
+    --text-100: #e2d8f3;
+    --text-200: #c6b2e6;
+    --text-300: #a98bda;
+    --text-400: #8d65cd;
+    --text-500: #703ec1;
+    --text-600: #5a329a;
+    --text-700: #432574;
+    --text-800: #2d194d;
+    --text-900: #160c27;
+    --text-950: #0b0613;
+    
+    --background-50: #f1edf8;
+    --background-100: #e3daf1;
+    --background-200: #c7b5e3;
+    --background-300: #ac90d5;
+    --background-400: #906bc7;
+    --background-500: #7446b9;
+    --background-600: #5d3894;
+    --background-700: #462a6f;
+    --background-800: #2e1c4a;
+    --background-900: #170e25;
+    --background-950: #0c0712;
+    
+    --primary-50: #f0ecf8;
+    --primary-100: #e2d9f2;
+    --primary-200: #c5b3e5;
+    --primary-300: #a78dd8;
+    --primary-400: #8a67cb;
+    --primary-500: #6d41be;
+    --primary-600: #573498;
+    --primary-700: #412772;
+    --primary-800: #2c1a4c;
+    --primary-900: #160d26;
+    --primary-950: #0b0713;
+    
+    --secondary-50: #f8ecee;
+    --secondary-100: #f2d9dc;
+    --secondary-200: #e5b3ba;
+    --secondary-300: #d88d97;
+    --secondary-400: #cb6774;
+    --secondary-500: #be4152;
+    --secondary-600: #983441;
+    --secondary-700: #722731;
+    --secondary-800: #4c1a21;
+    --secondary-900: #260d10;
+    --secondary-950: #130708;
+    
+    --accent-50: #f8f0ec;
+    --accent-100: #f2e1d9;
+    --accent-200: #e5c2b3;
+    --accent-300: #d8a48d;
+    --accent-400: #cb8567;
+    --accent-500: #be6741;
+    --accent-600: #985234;
+    --accent-700: #723e27;
+    --accent-800: #4c291a;
+    --accent-900: #26150d;
+    --accent-950: #130a07;
+    
+  }
+}
+
+.magicpattern { 
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M840.5 707.5Q740 915 530 863.5T189.5 656Q59 500 172.5 315t326-183Q711 134 826 317t14.5 390.5Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%234c1a21%22 d=%22M840.5 707.5Q740 915 530 863.5T189.5 656Q59 500 172.5 315t326-183Q711 134 826 317t14.5 390.5Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}

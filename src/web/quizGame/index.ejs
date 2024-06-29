@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz game</title>
+    <link rel="stylesheet" href="/src/web/output.css">
+</head>
+<body class="bg-background-900">
+    <div class="flex flex-col items-center">
+        <div class="w-full max-w-screen-2xl h-svh flex flex-col items-center ">
+            <div class="m-8">
+                <button id="startButton" class="bg-primary-400 text-2xl py-8 w-96 text-center rounded-full" onclick="startGame()">Uzsākt viktorinu</button>
+            </div>
+            <div id="gameWindow" style="display: none;" class="drop-shadow-xl">
+                <div class="m-8">
+                    <p id="infoText" class="text-3xl sm:text-6xl text-text-50 text-center">Question X, Yp</p>
+                </div>
+                <div class="max-w-[800px] w-full min-h-[800px] rounded-2xl drop-shadow-xl">
+                    <div id="imageContainer" class="w-full h-[300px] bg-[url(https://i1.sndcdn.com/artworks-zyYqA8D0BdfuyH28-WeeHrw-t500x500.jpg)] bg-cover bg-center rounded-t-2xl"></div>
+                    <div class="w-full min-h-[233px] bg-primary-800 flex justify-center items-center">
+                        <p id="text" class="text-3xl text-center text-text-50">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, eum libero tempore nostrum ab cumque beatae magnam provident velit exercitationem tempora dolore dignissimos possimus rerum tenetur autem a, harum maxime.
+                        </p>
+                    </div>
+                    <div class="w-full  min-h-[233px] bg-primary-800 flex flex-wrap justify-center">
+                        <div class="w-[400px] h-[233px] flex flex-col flex-wrap">
+                            <div class="h-1/2 w-full flex items-center justify-center">
+                                <input type="radio" name="selection" value="option1" id="option1" checked="checked" class="hidden peer">
+                                <label for="option1" name="name" id="field1" class="bg-primary-400 peer-checked:bg-primary-300 py-8 w-96 text-center rounded-full drop-shadow-2xl text-2xl">Option 1</label>
+                            </div>
+                            <div class="h-1/2 w-full flex items-center justify-center">
+                                <input type="radio" name="selection" value="option2" id="option2" class="hidden peer">
+                                <label for="option2" name="name" id="field2" class="bg-primary-400 peer-checked:bg-primary-300 py-8 w-96 text-center rounded-full drop-shadow-2xl text-2xl">Option 2</label>
+                            </div>
+                        </div>
+                        <div class="w-[400px] h-[233px] flex flex-col flex-wrap">
+                            <div class=" h-1/2 w-full flex justify-center items-center">
+                                <input type="radio" name="selection" value="option3" id="option3" class="hidden peer">
+                                <label for="option3" name="name" id="field3" class=" bg-primary-400 peer-checked:bg-primary-300 py-8 w-96 text-center rounded-full drop-shadow-2xl text-2xl">Option 3</label>
+                            </div>
+                            <div class="h-1/2 w-full flex items-center justify-center">
+                                <input type="radio" name="selection" value="option4" id="option4" class="hidden peer">
+                                <label for="option4" name="name" id="field4" class="bg-primary-400 peer-checked:bg-primary-300 py-8 w-96 text-center rounded-full drop-shadow-2xl text-2xl">Option 4</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-full justify-evenly my-8">
+                    <button id="Submit" class="bg-primary-400 text-2xl py-8 w-96 text-center rounded-full disabled:bg-accent-700" onclick="submitAnswer()">Iesniegt</button>
+                    <button id="Next" class="bg-primary-400 text-2xl py-8 w-96 text-center rounded-full" onclick="nextQuestion()" style="display: none;">Talāk</button>
+                </div>
+                
+            </div>
+            <div class="m-8">
+                <p id="Result" class="text-3xl sm:text-6xl text-text-50 text-center " style="display: none;">X out of Y questions are correct!</p>
+            </div>
+            <div>
+                <button id="Restart" class="bg-primary-400 text-2xl py-8 w-96 text-center rounded-full" onclick="startGame()" style="display: none;">Restartēt</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/script.js"></script>
+</html>

@@ -1,0 +1,102 @@
+{
+    "0": {
+        "Points": 1,
+        "Image": "https://vemaps.com/uploads/img/big/lv-06.jpg",
+        "Text": "Kāda ir ši valsts?",
+        "0": "Lietuva",
+        "1": "Latvija",
+        "2": "Vācija",
+        "3": "Norveģija",
+        "Answer": "1"
+    },
+    "1": {
+        "Points": 2,
+        "Image": "https://valtioneuvosto.fi/documents/1410877/131919464/eu-lippu2-1000.jpg",
+        "Text": "Cik valstu ir Europas Savienība sastāvā?",
+        "0": "30",
+        "1": "28",
+        "2": "21",
+        "3": "27",
+        "Answer": "3"
+    },
+    "2": {
+        "Points": 2,
+        "Image": "https://cdntest.db.lv/lvold/735/2019/articles/2017/10/467848__59e8918d064e3.jpg",
+        "Text": "Kad tika atklāts brīvibas piemineklis?",
+        "0": "1918",
+        "1": "1935",
+        "2": "1923",
+        "3": "1928",
+        "Answer": "1"
+    },
+    "3": {
+        "Points": 5,
+        "Image": "https://www.visisvetki.lv/wp-content/uploads/2016/04/foto_04_05_1990_manifestacija_2-media_large.jpg",
+        "Text": "Kad Latvija deklarēja neatkarības atjaunošanu no Latvijas PSR?",
+        "0": "1990. gada 4. maijā",
+        "1": "1991. gada 27. februārī",
+        "2": "1991. gada 7. junijā",
+        "3": "1990. gada 18. novembrī",
+        "Answer": "0"
+    },
+    "4": {
+        "Points": 2,
+        "Image": "https://www.president.lv/sites/president/files/styles/100_style/public/gallery_images/rigas_pils_20190918-4-of-26.jpg",
+        "Text": "Kas bija pirmais Latvijas prezidents?",
+        "0": "Edgars Rinkēvičs",
+        "1": "Kārlis Ulmanis",
+        "2": "Jānis Čakste",
+        "3": "Gustavs Zemgals",
+        "Answer": "2"
+    },
+    "5": {
+        "Points": 1,
+        "Image": "https://pic.la.lv/2015/07/gauja-upe-udens.jpg",
+        "Text": "Kura upe plūst cauri Rīgai?",
+        "0": "Gauja",
+        "1": "Daugava", 
+        "2": "Venta",
+        "3": "Lielupe",
+        "Answer": "1"
+    },
+    "6": {
+        "Points": 1,
+        "Image": "https://valoda.lv/games/macamies-latviesu-valodu-13-14-gadi/Daba/Ezeri/Raznas/AprA.jpg",
+        "Text": "Kurš ir lielākais ezers Latvijā?",
+        "0": "Burtnieks",
+        "1": "Usma", 
+        "2": "Rāzna",
+        "3": "Lubāns",
+        "Answer": "3"
+    },
+    "7": {
+        "Points": 2,
+        "Image": "https://cdntest.db.lv/lvold/735/2019/article/0046/452979/1930242_ORIGINAL_1471433792.jpg",
+        "Text": "Kura ir vecākā pilsēta Latvijā?",
+        "0": "Rīga",
+        "1": "Cēsis", 
+        "2": "Valmiera",
+        "3": "Ludza",
+        "Answer": "3"
+    },
+    "8": {
+        "Points": 3,
+        "Image": "https://www.latvia.travel/sites/default/files/styles/mobile_promo/public/media_image/Gauja%20national%20park.jpg",
+        "Text": "Kurš ir lielākais nacionālais parks Latvijā?",
+        "0": "Gaujas nacionālais parks",
+        "1": "Ķemeru nacionālais parks", 
+        "2": "Slīteres nacionālais parks",
+        "3": "Rāznas nacionālais parks",
+        "Answer": "0"
+    },
+    "9": {
+        "Points": 2,
+        "Image": "https://rezeknesnovads.lv/wp-content/uploads/fly-images/243689/2011-10-02-14-13-24-921x579-c.jpg",
+        "Text": "Kura ir Latvijas augstākā virsotne?",
+        "0": "Sērmūkšu kalns", 
+        "1": "Gaiziņkalns",
+        "2": "Krāslavas kalns",
+        "3": "Riebiņu kalns",
+        "Answer": "1"
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "learning_tailwind",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/web/output.css --watch",
+    "ts": "tsc src/web/homePAge/script.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/ejs": "^3.1.5",
+    "@types/express": "^4.17.21",
+    "autoprefixer": "^10.4.19",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "ts-node-register": "^1.0.0"
+  }
+}
